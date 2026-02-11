@@ -5,7 +5,7 @@ const baseOptions = {
   chart: { type: 'area', height: 230, toolbar: { show: false } },
   dataLabels: { enabled: false },
   stroke: { curve: 'smooth', width: 2 },
-  xaxis: { categories: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'] }
+  xaxis: { categories: [] }
 };
 
 /* CHARTS */
@@ -38,7 +38,9 @@ const charts = {
 
   gap: new ApexCharts(
     document.querySelector("#chart-gap"),
-    { chart: { type: 'bar', height: 230 },
+    { chart: { type: 'bar', height: 230, toolbar:{
+      show:false
+    }},
       series: [{ name: 'Gaps Found', data: [12,9,7,5,3] }],
       xaxis: { categories: ['Infra','Network','IAM','Apps','Policies'] }
     }

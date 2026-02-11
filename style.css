@@ -47,3 +47,29 @@
   padding: 15px;
   min-height: 230px;
 }
+
+.dashboard-header {
+  background: white;
+  padding: 0px 24px;
+  /* border-radius: 14px; */
+  margin-bottom: 22px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+.dashboard-header h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #2c3e50;
+}
