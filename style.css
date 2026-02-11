@@ -1,0 +1,49 @@
+/* Dashboard Background */
+.bg-dashboard {
+  background-color: #f4f6fb;
+}
+
+/* Dashboard Card */
+.dashboard-card {
+  background: #ffffff;
+  border-radius: 18px;              /* Smooth rounded corners */
+  padding: 20px;
+  height: 100%;
+  cursor: pointer;
+
+  /* Soft layered shadow */
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.04),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+
+  transition: all 0.25s ease;
+  border: 1px solid #eef1f6;
+}
+
+/* Hover Lift Effect */
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.06),
+    0 18px 40px rgba(0, 0, 0, 0.10);
+}
+
+/* Card Header */
+.card-header-custom {
+  margin-bottom: 18px;
+}
+
+.card-header-custom h6 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1f2937;
+}
+
+/* Chart Area (Clean + Rounded Inner Layer) */
+.card-body-custom {
+  background: #f9fbff;
+  border-radius: 14px;   /* Inner rounded layer */
+  padding: 15px;
+  min-height: 230px;
+}
